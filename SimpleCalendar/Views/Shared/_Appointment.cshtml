@@ -1,0 +1,8 @@
+﻿@model IEnumerable<SimpleCalendar.ViewModels.AppointmentViewModel>
+
+@{ 
+    foreach (var appointment in Model)
+    {
+        <p>@appointment.Date | <a href="/appointment/@appointment.Id" class="btn btn-success @(appointment.Selected ? "active": "")">@appointment.Subject</a></p>
+    }
+}

@@ -1,0 +1,32 @@
+﻿@model int
+@{
+    string[] months = {
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+    };
+}
+<div class="row">
+    <div class="col-12">
+        <p>Select a Month: </p>
+    </div>
+</div>
+<div class="row">
+
+    @for (int i = 0; i < months.Length; i++)
+    {
+        <div class="col-sm-3 col-md-1">
+            <a href="/calendar/@(i+1)" class="btn btn-primary form-control @(Model== i+1 ? "active" : "")">@months[i]</a>
+        </div>
+    }
+</div>
+

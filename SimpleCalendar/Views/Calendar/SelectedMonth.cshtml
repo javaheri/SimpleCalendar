@@ -1,0 +1,21 @@
+﻿@model SimpleCalendar.ViewModels.CalendarViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <p><strong>Calendar</strong></p>
+
+        @Html.Partial("_Month", Model.Id)
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-sm-6">
+        @Html.Partial("_Appointment",Model.Appointments)
+    </div>
+</div>
+

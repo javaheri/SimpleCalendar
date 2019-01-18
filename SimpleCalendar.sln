@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalendar", "SimpleCalendar\SimpleCalendar.csproj", "{457EF53D-0609-4043-B349-F9A09035B0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalendar.Tests", "SimpleCalendar.Tests\SimpleCalendar.Tests.csproj", "{F5A29209-7D82-4389-9A40-BAAF74CC8016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{457EF53D-0609-4043-B349-F9A09035B0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457EF53D-0609-4043-B349-F9A09035B0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457EF53D-0609-4043-B349-F9A09035B0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457EF53D-0609-4043-B349-F9A09035B0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A29209-7D82-4389-9A40-BAAF74CC8016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A29209-7D82-4389-9A40-BAAF74CC8016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A29209-7D82-4389-9A40-BAAF74CC8016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A29209-7D82-4389-9A40-BAAF74CC8016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

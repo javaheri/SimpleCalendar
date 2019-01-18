@@ -1,0 +1,15 @@
+﻿@model SimpleCalendar.ViewModels.AppointmentViewModel
+@{
+    Layout = null;
+}
+
+<p>Description: @Model.Description</p>
+<p>Date: @Model.Date</p>
+<p>Organizer: @Model.Organizer</p>
+<p>Attendees: </p>
+@{
+    foreach (var attendee in Model.Attendees)
+    {
+        <p>@attendee.FullName</p>
+    }
+}
